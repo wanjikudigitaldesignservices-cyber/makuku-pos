@@ -28,5 +28,4 @@ export default defineConfig({
     },
   },
   logLevel: 'info',
-  ignoreDeprecations: ['legacy-js-api'],
 })
