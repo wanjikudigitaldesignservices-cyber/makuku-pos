@@ -117,6 +117,15 @@ export interface Database {
         Returns: LowStockProduct[]
       }
     }
+    Views: {
+      [_ in never]: never
+    }
+    Enums: {
+      [_ in never]: never
+    }
+    CompositeTypes: {
+      [_ in never]: never
+    }
   }
 }
 
